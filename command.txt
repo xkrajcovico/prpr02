@@ -1,0 +1,7 @@
+set title 'Exported data'
+set ylabel 'hodnota'
+set xlabel 'Moduly'
+set term png
+set output 'graph.png'
+set datafile separator ","
+plot "sheet.csv" with histogram
